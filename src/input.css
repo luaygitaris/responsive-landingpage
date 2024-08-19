@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.show {
+    display: flex;
+    flex-direction: column;
+}
+.show.menuList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
