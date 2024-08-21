@@ -780,12 +780,24 @@ video {
   margin-right: auto;
 }
 
+.mb-64 {
+  margin-bottom: 16rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mb-96 {
+  margin-bottom: 24rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .box-border {
@@ -915,12 +927,32 @@ video {
   height: 9rem;
 }
 
+.h-4\/5 {
+  height: 80%;
+}
+
 .h-\[1px\] {
   height: 1px;
 }
 
 .h-full {
   height: 100%;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[500px\] {
+  height: 500px;
 }
 
 .w-12 {
@@ -954,6 +986,10 @@ video {
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-full {
@@ -1530,6 +1566,14 @@ video {
   gap: 1.75rem;
 }
 
+.gap-9 {
+  gap: 2.25rem;
+}
+
+.gap-14 {
+  gap: 3.5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -2034,49 +2078,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-blue-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
-}
-
-.bg-inherit {
-  background-color: inherit;
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[bottom\(\)\] {
-  background-color: bottom();
-}
-
-.bg-\[bottom\(-100px\)\] {
-  background-color: bottom(-100px);
-}
-
 .bg-\[url\(\.\.\/img\/background\/Element\.png\)\] {
   background-image: url(../img/background/Element.png);
-}
-
-.bg-\[url\(\)\] {
-  background-image: url();
-}
-
-.bg-\[url\(img\/background\/\)\] {
-  background-image: url(img/background/);
-}
-
-.bg-\[url\(img\/background\/Bg\)\] {
-  background-image: url(img/background/Bg);
-}
-
-.bg-\[url\(img\/background\/Bg-1\.png\)\] {
-  background-image: url(img/background/Bg-1.png);
-}
-
-.bg-\[url\(\.\/img\/background\/Bg-1\.png\)\] {
-  background-image: url(./img/background/Bg-1.png);
 }
 
 .decoration-slice {
@@ -2101,10 +2104,6 @@ video {
 
 .bg-cover {
   background-size: cover;
-}
-
-.bg-contain {
-  background-size: contain;
 }
 
 .bg-fixed {
@@ -2140,24 +2139,8 @@ video {
   background-position: center;
 }
 
-.bg-right-bottom {
-  background-position: right bottom;
-}
-
-.bg-right-top {
-  background-position: right top;
-}
-
 .bg-right {
   background-position: right;
-}
-
-.bg-bottom {
-  background-position: bottom;
-}
-
-.bg-\[bottom\] {
-  background-position: bottom;
 }
 
 .bg-repeat {
@@ -2287,6 +2270,16 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2365,6 +2358,15 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -2470,6 +2472,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .underline {
@@ -2794,10 +2800,6 @@ video {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
-.will-change-transform {
-  will-change: transform;
-}
-
 .contain-none {
   contain: none;
 }
@@ -2903,6 +2905,16 @@ video {
   font-weight: 700;
 }
 
+.hover\:text-amber-900:hover {
+  --tw-text-opacity: 1;
+  color: rgb(120 53 15 / var(--tw-text-opacity));
+}
+
+.hover\:text-yellow-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
 .before\:hover\:text-center:hover::before {
   content: var(--tw-content);
   text-align: center;
@@ -2960,6 +2972,10 @@ video {
     width: 550px;
   }
 
+  .lg\:w-\[300px\] {
+    width: 300px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -2972,12 +2988,20 @@ video {
     align-items: center;
   }
 
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
   .lg\:gap-10 {
     gap: 2.5rem;
   }
 
   .lg\:gap-24 {
     gap: 6rem;
+  }
+
+  .lg\:gap-16 {
+    gap: 4rem;
   }
 
   .lg\:p-0 {
@@ -2997,6 +3021,20 @@ video {
   .lg\:py-28 {
     padding-top: 7rem;
     padding-bottom: 7rem;
+  }
+
+  .lg\:px-\[80px\] {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .lg\:px-\[10px\] {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .lg\:text-center {
+    text-align: center;
   }
 
   .lg\:text-start {
